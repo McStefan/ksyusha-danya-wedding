@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 750" fill="none">
+  <defs>
+    <style>
+      @font-face {
+        font-family: "CormorantLocal";
+        src: url("../fonts/CormorantGaramond-Light-Cyrillic.ttf") format("truetype");
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      .num {
+        fill: #b79668;
+        font-family: "CormorantLocal", "Times New Roman", serif;
+        font-size: 210px;
+        font-weight: 300;
+        text-anchor: middle;
+      }
+
+      .line {
+        stroke: #b79668;
+        stroke-width: 8;
+        stroke-linecap: square;
+      }
+    </style>
+  </defs>
+
+  <text class="num" x="256" y="190">05</text>
+  <line class="line" x1="150" y1="230" x2="362" y2="230" />
+  <text class="num" x="256" y="410">06</text>
+  <line class="line" x1="150" y1="450" x2="362" y2="450" />
+  <text class="num" x="256" y="670">26</text>
+</svg>

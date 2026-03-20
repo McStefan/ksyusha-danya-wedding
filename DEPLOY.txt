@@ -1,0 +1,15 @@
+Деплой на Netlify
+=================
+
+Команда для деплоя (выполнять из папки custom_site):
+
+npx netlify deploy --prod --dir=. --message="Описание изменений"
+
+Примеры:
+npx netlify deploy --prod --dir=. --message="Fix form"
+npx netlify deploy --prod --dir=. --message="Update styles"
+
+URL сайта: https://danya-ksyusha-wedding.netlify.app
+
+Если разлогинился:
+npx netlify login
